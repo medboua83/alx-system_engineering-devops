@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "The sum of water ($water) and stir ($stir) is: $result_bestc"
+echo $(($((36#$water))+$((36#$stir))))
